@@ -1,7 +1,10 @@
 import React from 'react'
+import NewsContainer from './components/app'
 
-function App() {
-  return <div>app</div>
+export default function App() {
+  return (
+    <>
+      <NewsContainer />
+    </>
+  )
 }
-
-export default App
